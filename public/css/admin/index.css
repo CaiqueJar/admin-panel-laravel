@@ -1,0 +1,56 @@
+.header-control {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-control .controls {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+.search-box input {
+    width: 100%;
+    padding: 8px 14px;
+    border: #b9b9b9 1px solid;
+    border-radius: 6px;
+}
+table {
+    border-spacing: 0;
+    width: 100%;
+    margin-top: 20px;
+    border-collapse:collapse;
+    border:1px solid #dbdbdb;
+}
+thead th, tbody td {
+    text-align: start;
+    border:1px solid #dbdbdb;
+    padding: .5rem;
+}
+tbody td {
+    padding: 4px 10px;
+}
+tbody td img {
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+}
+tbody td.td-center {
+    text-align: center;
+}
+.edit-icon {
+    color: rgb(0, 103, 221);
+}
+.del-icon {
+    color: rgb(207, 41, 41);
+}
+.pagination {
+    display: flex;
+    gap: 12px;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    align-items: center;
+    color: #5a5a5a;
+}
+.pagination .disabled {
+    color: #adadad;
+}
